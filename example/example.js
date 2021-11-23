@@ -80,7 +80,7 @@ class App extends React.Component {
         <p>
           <a href="https://github.com/STRML/react-draggable/blob/master/example/example.js">Demo Source</a>
         </p>
-        <Draggable {...dragHandlers}>
+        <Draggable>
           <div className="box">I can be dragged anywhere</div>
         </Draggable>
         <Draggable axis="x" {...dragHandlers}>
